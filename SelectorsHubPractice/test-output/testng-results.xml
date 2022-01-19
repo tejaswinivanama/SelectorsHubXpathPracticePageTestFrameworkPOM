@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4929" started-at="2022-01-19T02:31:56Z" finished-at="2022-01-19T02:32:01Z">
+  <suite name="Default suite" duration-ms="5546" started-at="2022-01-19T06:32:07Z" finished-at="2022-01-19T06:32:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4929" started-at="2022-01-19T02:31:56Z" finished-at="2022-01-19T02:32:01Z">
+    <test name="Default test" duration-ms="5546" started-at="2022-01-19T06:32:07Z" finished-at="2022-01-19T06:32:12Z">
       <class name="com.tej.tests.PracticePageTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tej.tests.PracticePageTests@4df50bcc]" name="setUp" is-config="true" duration-ms="2869" started-at="2022-01-19T02:31:56Z" finished-at="2022-01-19T02:31:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tej.tests.PracticePageTests@3eb7fc54]" name="setUp" is-config="true" duration-ms="3453" started-at="2022-01-19T06:32:07Z" finished-at="2022-01-19T06:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="practiceTest()[pri:0, instance:com.tej.tests.PracticePageTests@4df50bcc]" name="practiceTest" duration-ms="1377" started-at="2022-01-19T02:31:59Z" finished-at="2022-01-19T02:32:00Z">
+        <test-method status="PASS" signature="practiceTest()[pri:0, instance:com.tej.tests.PracticePageTests@3eb7fc54]" name="practiceTest" duration-ms="1409" started-at="2022-01-19T06:32:10Z" finished-at="2022-01-19T06:32:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- practiceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tej.tests.PracticePageTests@4df50bcc]" name="tearDown" is-config="true" duration-ms="668" started-at="2022-01-19T02:32:00Z" finished-at="2022-01-19T02:32:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tej.tests.PracticePageTests@3eb7fc54]" name="tearDown" is-config="true" duration-ms="669" started-at="2022-01-19T06:32:12Z" finished-at="2022-01-19T06:32:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

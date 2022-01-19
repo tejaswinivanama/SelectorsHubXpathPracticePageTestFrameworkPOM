@@ -10,6 +10,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestBase {
 
 	public static Properties prop;
@@ -19,7 +21,7 @@ public class TestBase {
 	public TestBase() {
 		prop=new Properties();
 		try {
-			fIn=new FileInputStream("C:/Users/tejas/eclipse-workspace/SelectorsHubPractice/src/main/java/com/tej/properties/config.properties");
+			fIn=new FileInputStream("C:/Users/tejas/git/SelectorsHubXpathPracticePageTestFrameworkPOM/SelectorsHubPractice/src/main/java/com/tej/properties/config.properties");
 			prop.load(fIn);
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
@@ -30,7 +32,12 @@ public class TestBase {
 
 	public void init() {
 		if(prop.getProperty("driver").equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:/Users/tejas/Documents/Docs/Drivers/chromedriver_win32/chromedriver.exe");
+			/*
+			 * System.setProperty("webdriver.chrome.driver",
+			 * "C:/Users/tejas/Documents/Docs/Drivers/chromedriver_win32/chromedriver.exe");
+			 * driver=new ChromeDriver();
+			 */
+			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 		}
 		driver.manage().deleteAllCookies();
